@@ -1,9 +1,70 @@
+
+
 body {
+    display: flex;
     background-color: #DBCFAE;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    margin-top: 150px;
+}
+
+h1, h2, {
+    color: #292009;
 }
 
 h1 {
-    font-size: 100px;
-    color: #292009;
+    font-size: 75px;
+}
+
+
+h3 {
+    color: #C38700;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+section {
+    display: inline-block;
+
+}
+
+.parcours {
+    display: inline-block;
+}
+
+.tableau.collage {
+    padding: 50px;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 600px;    
+}
+
+dl {
+    text-align: left;
+    
+}
+
+dt {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: large;
+}
+
+dd {
+    text-align: left;
+    padding-bottom: 30px;
+    color: #746335;
+}
+
+em {
+    font-style: italic;
+    font-size: 20;
+}
+
+img {
+    max-width: 70%;
+    margin-left: 150px;
 }

@@ -1,5 +1,3 @@
-
-
 body {
     display: flex;
     background-color: #DBCFAE;
@@ -42,7 +40,7 @@ section {
     height: 600px;    
 }
 
-dl {
+dl.dd {
     text-align: left;
     
 }
@@ -54,7 +52,6 @@ dt {
 }
 
 dd {
-    text-align: left;
     padding-bottom: 30px;
     color: #746335;
 }
@@ -67,4 +64,20 @@ em {
 img {
     max-width: 70%;
     margin-left: 150px;
+}
+
+img:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        align-items: center;
+    }
 }
